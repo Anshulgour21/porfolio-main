@@ -1,15 +1,26 @@
 export function ExperienceSection() {
   const experiences = [
     {
-      id: "internship",
-      year: "[Dates]",
-      company: "[Company Name]",
-      role: "Frontend Developer Intern",
-      description: "Worked on building the frontend for an Udemy-like web application while integrating with an existing backend.",
+      id: "freelance",
+      year: "May 2026 - Present",
+      company: "thelogoless.com",
+      role: "Freelance Full Stack Developer",
+      description: "Working as a freelance MERN stack developer, building modern web experiences and scalable solutions.",
       bullets: [
-        "Built responsive frontend screens using Next.js and Tailwind CSS.",
-        "Integrated frontend interfaces with existing backend REST APIs.",
-        "Focused on modern web application development and responsive UI design."
+        "Developing responsive web applications using React, Next.js, and modern frontend technologies.",
+        "Collaborating with clients to design and implement end-to-end full stack web solutions."
+      ]
+    },
+    {
+      id: "internship",
+      year: "Jan 2026 - May 2026",
+      company: "Allsoft Solutions and Services",
+      role: "Artificial Intelligence Intern (Remote)",
+      description: "Developed a Sentiment Analysis application using Python and Natural Language Processing (NLP) techniques to classify product reviews and analyze customer feedback.",
+      bullets: [
+        "Worked with AI and machine learning tools to build application workflows and integrate key features.",
+        "Performed data preprocessing, model testing, and sentiment classification following software development best practices.",
+        "Collaborated in a project-based environment, improving problem-solving and technical development skills."
       ]
     }
   ];

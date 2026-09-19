@@ -1,16 +1,16 @@
 import { FadeIn } from "../animations/FadeIn";
 import { AvailabilityBadge } from "../ui/AvailabilityBadge";
+import { QuickLinksBar } from "../ui/QuickLinksBar";
 
 export function HeroSection() {
   return (
-    <section className="relative w-full min-h-[90vh] flex flex-col items-center justify-center px-6 md:px-12 pt-20">
-      <div className="absolute top-8">
-        <FadeIn delay={0.1}>
+    <section id="home" className="relative w-full min-h-[90vh] flex flex-col items-center justify-center px-6 md:px-12 pt-32">
+      <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
+        
+        <FadeIn delay={0.1} className="mb-12">
           <AvailabilityBadge />
         </FadeIn>
-      </div>
 
-      <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
         <FadeIn delay={0.2}>
           <h1 className="text-5xl sm:text-7xl md:text-8xl font-semibold text-foreground tracking-tighter mb-6">
             Anshul Gour
@@ -23,13 +23,8 @@ export function HeroSection() {
           </h2>
         </FadeIn>
 
-        <FadeIn delay={0.4} className="mt-12 flex items-center gap-6">
-          <a href="#work" className="text-sm font-semibold uppercase tracking-widest text-foreground hover:text-accent transition-colors pb-1 border-b border-foreground hover:border-accent">
-            View Work
-          </a>
-          <a href="#contact" className="text-sm font-semibold uppercase tracking-widest text-muted hover:text-foreground transition-colors pb-1 border-b border-transparent hover:border-foreground">
-            Contact Me
-          </a>
+        <FadeIn delay={0.4} className="mt-12 flex justify-center w-full">
+          <QuickLinksBar />
         </FadeIn>
       </div>
     </section>

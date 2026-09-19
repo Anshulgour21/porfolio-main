@@ -36,7 +36,7 @@ export function AboutSection() {
           
           <FadeIn delay={0.4}>
             <p className="text-lg md:text-xl text-muted leading-relaxed mb-10">
-              Beyond the frontend, I also work with Node.js, Express.js, REST APIs, and databases to build complete, end-to-end web applications. Currently pursuing my B.Tech in Computer Science (Class of 2026), I am passionate about crafting polished digital experiences that solve real problems.
+              Beyond the frontend, I also work with Node.js, Express.js, REST APIs, and databases to build complete, end-to-end web applications. I am currently pursuing my B.Tech in Computer Science at Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV) Indore (2022-2026), where I am passionate about crafting polished digital experiences that solve real problems.
             </p>
           </FadeIn>
 
@@ -44,7 +44,7 @@ export function AboutSection() {
             <div className="grid grid-cols-2 gap-8 pt-8 border-t border-border">
               <div>
                 <span className="block text-sm font-semibold tracking-widest text-muted uppercase mb-2">Education</span>
-                <span className="text-foreground font-medium">B.Tech Computer Science<br/>Class of 2026</span>
+                <span className="text-foreground font-medium">B.Tech, SVVV Indore<br/>2022 - 2026 (7.29 CGPA)</span>
               </div>
               <div>
                 <span className="block text-sm font-semibold tracking-widest text-muted uppercase mb-2">Core Tech</span>

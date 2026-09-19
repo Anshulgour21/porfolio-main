@@ -1,4 +1,4 @@
-import { ArrowRight, Mail } from "lucide-react";
+import { ArrowRight, Phone } from "lucide-react";
 import { FadeIn } from "../animations/FadeIn";
 import { GithubIcon, LinkedinIcon } from "../ui/Icons";
 
@@ -33,7 +33,19 @@ export function ContactSection() {
         </a>
       </FadeIn>
 
-      <FadeIn delay={0.4} className="flex items-center gap-8 border-t border-border pt-12 w-full justify-center">
+      <FadeIn delay={0.4} className="flex flex-wrap items-center gap-8 md:gap-12 border-t border-border pt-12 w-full justify-center">
+        
+        <a 
+          href="tel:+917999538771"
+          className="group flex flex-col items-center gap-2 text-muted hover:text-foreground transition-colors"
+          aria-label="Phone Number"
+        >
+          <div className="p-4 rounded-full border border-border bg-background group-hover:border-muted transition-colors">
+            <Phone size={24} />
+          </div>
+          <span className="text-sm font-medium">+91 79995 38771 ↗</span>
+        </a>
+
         <a 
           href="https://www.linkedin.com/in/anshul-gour-aa5877220"
           target="_blank"

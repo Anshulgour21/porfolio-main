@@ -23,13 +23,15 @@ export const metadata: Metadata = {
   }
 };
 
+import { Navbar } from "@/components/layout/Navbar";
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth`}>
+      <body className="bg-background text-foreground min-h-screen flex flex-col relative">
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

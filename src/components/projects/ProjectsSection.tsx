@@ -65,12 +65,12 @@ export function ProjectsSection() {
       <div className="flex flex-col gap-12 md:gap-24">
         <ProjectCard 
           project={PROJECTS[0]} 
-          layout="image-right" 
+          layout="image-left" 
           onClick={() => setSelectedProject(PROJECTS[0])} 
         />
         <ProjectCard 
           project={PROJECTS[1]} 
-          layout="image-first" 
+          layout="image-right" 
           onClick={() => setSelectedProject(PROJECTS[1])} 
         />
         <ProjectCard 
@@ -80,7 +80,7 @@ export function ProjectsSection() {
         />
         <ProjectCard 
           project={PROJECTS[3]} 
-          layout="full-width" 
+          layout="image-right" 
           onClick={() => setSelectedProject(PROJECTS[3])} 
         />
       </div>

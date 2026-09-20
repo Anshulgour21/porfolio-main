@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Download, Menu, X } from "lucide-react";
+import { ThemeToggle } from "../ui/ThemeToggle";
 
 export function Navbar() {
   const [activeSection, setActiveSection] = useState("home");
@@ -126,6 +127,11 @@ export function Navbar() {
             Download Resume
             <Download size={14} className="text-blue-500" />
           </a>
+          
+          {/* Dark Mode Toggle */}
+          <div className="hidden md:flex">
+            <ThemeToggle />
+          </div>
 
           {/* Hamburger Menu Toggle (Mobile) */}
           <button 
@@ -162,6 +168,9 @@ export function Navbar() {
             Download Resume
             <Download size={14} className="text-blue-500" />
           </a>
+          <div className="flex justify-center mt-2">
+            <ThemeToggle />
+          </div>
         </div>
       )}
     </nav>

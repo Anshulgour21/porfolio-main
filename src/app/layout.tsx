@@ -24,6 +24,7 @@ export const metadata: Metadata = {
 };
 
 import { Navbar } from "@/components/layout/Navbar";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="bg-background text-foreground min-h-screen flex flex-col relative">
         <Navbar />
         {children}
+        <Analytics />
       </body>
     </html>
   );

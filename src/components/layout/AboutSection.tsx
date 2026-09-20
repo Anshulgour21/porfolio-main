@@ -15,7 +15,7 @@ export function AboutSection() {
               A bit about me.
             </h2>
           </FadeIn>
-          <FadeIn delay={0.2} className="relative aspect-square w-full max-w-md overflow-hidden rounded-2xl bg-muted/20 grayscale hover:grayscale-0 transition-all duration-700">
+          <FadeIn delay={0.2} className="relative aspect-square w-full max-w-md overflow-hidden rounded-2xl bg-muted/20 grayscale-0 md:grayscale hover:grayscale-0 transition-all duration-700">
             <Image 
               src="/profile.jpg" 
               alt="Anshul Gour" 

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import Image from "next/image";
-import { MapPin, Github, Linkedin, Mail, GraduationCap, Code2, FolderGit2, ArrowRight } from "lucide-react";
+import { MapPin, Mail, GraduationCap, Code2, FolderGit2, ArrowRight } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "../ui/Icons";
 
 export function HeroSection() {

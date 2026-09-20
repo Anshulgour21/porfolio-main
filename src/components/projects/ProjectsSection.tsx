@@ -23,7 +23,7 @@ const PROJECTS: ProjectData[] = [
     description: "A modern food-focused web experience designed around discovering food, browsing products and creating a smooth digital ordering experience.",
     technologies: ["React", "Next.js", "JavaScript", "Tailwind CSS"],
     liveUrl: "https://flavourfusionwithus.thelogoless.com/",
-    imageSrc: "/projects/flavour-fusion.jpg",
+    imageSrc: "/projects/flavour-fusion.png",
   },
   {
     id: "agx-media",
@@ -33,7 +33,7 @@ const PROJECTS: ProjectData[] = [
     description: "A creative agency website designed to present digital marketing, social media and video editing services through a modern visual experience.",
     technologies: ["React", "Next.js", "Tailwind CSS"], // Defaulting to this until provided
     liveUrl: "LINK TO BE PROVIDED",
-    imageSrc: "/projects/agx-media.jpg", // We'll need a placeholder for this one
+    imageSrc: "/projects/agx-media.png",
   },
   {
     id: "shivansh",
